@@ -1,0 +1,311 @@
+body{
+    margin: 0;
+    width: 100%;
+    position: relative;
+    background-size: contain;
+}
+
+.header{
+    margin: 0;
+    width: 100%;
+    position: relative;
+    float: left;
+    scroll-behavior: smooth;
+}
+
+.logo{
+    margin: 0;
+    width: 90%;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 0px;
+    opacity: 100%;
+    position: relative;
+    float: left;
+}
+
+.telefone{
+    padding: 30px;
+    margin-left: 25%;
+    font-size: 150%;
+    word-spacing: -1px;
+    list-style: none;
+    position: relative;
+    float: left;
+}
+
+nav{
+    margin: 0;
+    z-index: 1;
+    width: 98%;
+    padding: 1%;
+    word-spacing: 15px;    
+    position: relative;
+    float: left;
+    position: absolute;
+    text-align: right;
+    font-family: 'Sansita Swashed', cursive;
+    color: darkred;
+}
+
+nav a{
+    color: darkred;
+}
+
+nav ul{
+    list-style: none;
+    
+}
+
+nav ul li{
+    float: right;
+    position: relative;
+    padding: 1%;
+}
+
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: right;
+    background-color: none;
+    font-size: 150%;
+}
+
+.home{
+    margin: 0;
+    width: 100%;
+    padding-bottom: 2%;
+    position: relative;
+    float: left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-top: 1;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-color: saddlebrown;
+    color: white;
+    opacity: 100%;
+} 
+.home h1{
+    margin: 0;
+    padding-left: 1%;
+    padding-top: 30%;
+    padding-bottom: 0;
+    font-size: 3em;
+    color: gainsboro;
+    font-family: 'Montserrat', sans-serif;
+}
+.home h2{
+    margin: 0;
+    width: 100%;
+    padding-left: 1%;
+    font-size: 3em;
+    color: gainsboro;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sobre{
+    margin: 0;
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+    position: relative;
+    float: left;
+}
+
+.sobre h1{
+    margin: 0;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;    padding-top: 1%;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.sobre h2{
+    margin: 0;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%; 
+    font-family: 'Homemade Apple', cursive;   
+    font-weight: 100;
+    font-size: 30px;
+    color: darkred;
+}
+
+.sobre h3{
+    margin: 0;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: 100;
+    font-family: 'Josefin Slab', serif;
+    text-align: justify;
+}
+
+.banner_fome{
+    margin: 0;
+    width: 15%;
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-bottom: 3%;
+    position: relative;
+    float: left;
+}
+
+.tamanho_pizzas{
+    margin: 0;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    width: 50%;
+    position: relative;
+    float: left;
+}
+
+.cardapio{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    float: left;    
+}
+
+.btn_Cardapio{
+    margin: 0;
+    width: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 40px;
+    font-family: 'Sansita Swashed', cursive;
+    color: whitesmoke;
+    text-align: center;
+    background-color: orangered;
+}
+
+.galeria{
+    margin: 0;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.galeria img{
+    margin: 0;
+    width: 30%;
+    padding-left: 3%;
+    padding-bottom: 2%;
+    align-items: baseline;
+    position: relative;
+    float: left;
+}
+
+.galeria h1{
+    margin: 0;
+    width: 90%;
+    position: relative;
+    float: left;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    font-weight: 100;
+    font-size: 40px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.galeria p{
+    margin: 0;
+    width: 94%;
+    padding-top: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 1%;
+}
+
+.contato{
+    margin: 0;
+    width: 100%;
+    position: relative;
+    float: left;
+    border-style: solid;
+    border-top: 1;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    border-color: saddlebrown;
+    background-color: black;
+    color: whitesmoke;     
+}
+
+.icones{
+    margin: 0;
+    width: 2%;
+    padding-left: 15%;
+    float: left;
+    position: relative;
+}
+
+.contato h1{
+    margin: 0;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;    
+    padding-top: 1%;
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.contato h2{
+    margin: 0;
+    width: 45%;    
+    padding-bottom: 1%;
+    font-weight: 100;
+    font-size: 20px;
+    font-family: 'Josefin Slab', serif;
+    position: relative;
+    float: left;
+}
+
+.icones img{
+    margin: 0;
+    padding-bottom: 84%;
+    position: relative;
+    float: left;
+}
+
+.contato p{
+    margin: 0;
+    padding-left: 2%;
+    padding-bottom: 5%;
+    width: auto;
+}
+
+.mapa{
+    margin: 0;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    position: relative;
+    float: left;
+ }
+
+footer{
+    margin: 0;
+    padding: 1%;
+    width: 98%;
+    border-top: 5;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: saddlebrown;
+    border-style: solid;
+    position: relative;
+    float: left;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;    
+}
